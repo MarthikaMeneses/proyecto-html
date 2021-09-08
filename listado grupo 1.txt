@@ -1,0 +1,21 @@
+juan pablo martinez ( product owner)
+martha yanet meneses ( scrum master)
+adriana quintero ( sprint backlog ) apoyo product owner.
+an maria blanco ( sprint backlog ) apoyo como cliente.
+julian andres echeverry ( sprint backlog ) diseñador de ambientacción para la pagina web
+
+todos apoyamos a sprint backlog
+
+daily meeting (3/septiembre/2021)
+tareas: 
+1. crear el uswusario en github
+2. revisar conocer y organizar el trabajo a realizaar cada uno desde las funciones asignadas
+3. crear el repositorio ( scrum master)
+4. se definio hora de reunión de lunes a viernes 7 pm 
+
+daily metting (6/septiembre/2021)
+1. definicion del proyecto ( Panaaderia Artesanal)
+2. Organización de link periodico para reuniones ( Julian Echeverry) por Teams
+3. Propuesta de actividades posibles para definir alcances ( Ana Maria Blanco)
+4. Solución de dudas sobre alcances del proyecto con el docente J cardenas ( Juan Pablo y adriana)
+5. creacion del repositorio e invitacion a usuarios ( martha)
