@@ -1,5 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+.nav-bar{
+   display: flex; 
+   justify-content: space-between;
+}
+#logo{
+    position: absolute;
+width: 337px;
+height: 223px;
+left: 55px;
+top: 68px;
+
+}
+.fondo-home{
+    position: absolute;
+left: 0px;
+right: 0px;
+top: 1.59%;
+bottom: 57.03%;
+background-size: contain;
+
+}
+
+/*alinea el nmenu horizontal*/
+.menu-links li{
+    display: inline;          
+    padding-right: 25px;
+    
+}
+/*da color a los titulos*/
 h1{
-    color: #794425;
-    font-size: 64px;
-    text-align: center;
+color: #794425;
+font-size: 64px;
+text-align: center;
+}
+#menu-links{
+position: absolute;
+width: 871px;
+height: 62px;
+right: 0px;
+top: 42px;
+
+background: rgba(254, 252, 252, 0.57);
+}
+/*posiciona y da color al footer*/
+footer{
+position: absolute;
+width: 1440px;
+height: 128px;
+left: calc(50% - 1440px/2);
+bottom: 0px;
+top: 1697px;
+margin-top: auto;
+background: #E8A155;
 }
