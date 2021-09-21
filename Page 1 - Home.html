@@ -10,61 +10,80 @@
     <link rel="shortcut icon" href= "img/Logo Gramo a Gramo Pequeno.png" type= "image/x-icon">
     <!--enlace a la carpeta css-->
    <link rel="stylesheet" href="estilos.css">
+   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
    <!--estilos de la pagina-->
    <style> 
    /*los estilos se pasaron a la pestaña de estiloscss*/      
     </style>
 
 </head>
+<div class="box h-12  border-2 bg-yellow-600...">
+</div>
+
 
 <!--BODY-->
-
 <body>
     <header>  
-        <div id="menu" class="nav-bar">
+        <div id="menu" class="nav-bar flex wrap">
             <a id="logo" href="#"></a> <img width="337px" src="img/Logo Gramo a Gramo.png"alt=""/>           
-            <ul class="menu-links">
-            <li><a href="Page 2 - Quienes Somos.html">Quienes Somos</a></li>
+            <ul class="menu-links">                
+            <li ><a href="Page 2 - Quienes Somos.html">Quienes Somos</a></li>
             <li><a href="Page 3 - Panes.html">Panaderia</a></li>
             <li><a href="Page 4 - Pasteleria.html">Pasteleria</a></li>
             <li><a href="Page 5 - Eventos.html">Eventos</a></li>
             <li><a href="Page 6 - Contacto.html">Contactenos</a></li>
         </ul>            
         </div class="fondo-home">   
-               
-        <img width="1440px"src="img/fondo_home.JPG" alt=""/>
+        <div class="bg-no-repeat bg-right-top ..." style="background-image:">  
+        <!--BODY--><img width="1440px"src="img/fondo_home.JPG" alt=""/>
+    </div>    
     </header>
     
 </body>
 
 <!--MAIN-->
 
-<main>
-    
-    <h1>Productos de <br>panaderia artesanal</h1>
+<main>   
+        <h1 class="mt5 text-yellow-800 text-5xl">Productos de <br>panaderia artesanal</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 my-4">
+        <div>
+    <h2>Espinaca</h2>
     <img src="img/Pan_Espinaca.png" alt="">
     <p>
         Pan preparado con extracto de
         espinaca natural, llamativo en
         color y sabor.
     </p>
+</div>
+<div>
+    <h2>zanahoria</h2>
     <img src="img/Pan_Zanahoria.png" alt="">
     <p>
         Pan preparado ralladura y
         extracto de zanahoria, con sabor
         concentrado.
     </p>
+</div>
+<div>
+    <h2>Brioche</h2>
     <img src="img/Pan_Brioche.png" alt="">
     <p>
         Pan aliñado de masa suave, con un
         porcentaje alto de margarina y
         huevo.
     </p>
+</div>
+<div>
+    <h2>Artesano</h2>
     <img src="img/Pan_Artesano.png" alt="">
     <p>
         Pan de corteza con alto porcentaje
         de fermento.
     </p>
+    </div>
+    <div>
+    <h2>Multigrano</h2>
     <img src="img/Pan_MultiGranos.png" alt="">
     <p>
         Pan que posee semillas de ajonjolí,
@@ -72,39 +91,45 @@
         semillas de girasol y semillas de
         amapola.
     </p>
+    </div>
+    <div>
+    <h2>Intefral</h2>
     <img src="img/Pan_Integral.png" alt="">
     <p>
         Pan de harina 100% integral.
     </p>
+    </div>
+</div>
 
-    <h1>Productos de <br> pasteleria</h1>
+    <h1 class="mt5 text-yellow-800 text-5xl">Productos de <br> pasteleria</h1>
     <p>
         Poseemos un amplio portafolio de productos de pastelería y postres para
         cumplir todas las necesidades de nuestros clientes.
     </p>
+    <div class="grid grid-cols-1 xl:grid-cols-2 gap-2 my-2">
     <img src="img/Pasteleria_1.png" alt="">
     <img src="img/Pasteleria_2.png" alt="">
     <img src="img/Pasteleria_3.png" alt="">
     <img src="img/Pasteleria_4.png" alt="">
     <p>
+    </div>
         Ofrecemos la opción de personalizarlos según sus deseos y
         necesidades.
     </p>     
 
-    <h1>Productos para <br> eventos</h1>
+    <h1 class="mt5 text-yellow-800 text-5xl">Productos para <br> eventos</h1>
     <p>
         También atendemos todo tipo de eventos familiares y empresariales con mesas
         de dulce y sal de pasabocas. Este servicio se hace personalizado por lo que no
         manejamos rango de precios.
     </p>
+    <div class="grid grid-cols-1 xl:grid-cols-2 gap-2 my-2">
     <img src="img/Eventos_1.png" alt="">
     <img src="img/Eventos_2.png" alt="">
     <img src="img/Eventos_3.png" alt="">
     <img src="img/Eventos_4.png" alt="">     
-
-
-    <h3>Enlaces</h3>          
-           
+</div>          
+          
   
 </main>
 
@@ -114,11 +139,16 @@
 </aside>
 
 <!--FOOTER-->
-<footer>
-
+<footer  > 
+    <div class="flex justify-center">
+    <div>  
+    <a class="m-2 p-4" href="https://www.facebook.com/Gramoagramopanartesano/" target="_blank"><img src="img/icons8-facebook-nuevo.svg" alt="">
+    </div>
+    <div>  
+    <a class="m-2 p-4" href="https://www.instagram.com/gramoagramopanartesano/?hl=es-la" target="_blank"><img src="img/icons8-instagram.svg" alt="">
+    </div>
+</div>
 </footer>
-<img src="img/icons8-facebook-nuevo.svg" alt="">
-<img src="img/icons8-instagram.svg" alt="">
 
 
 </html>
