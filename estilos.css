@@ -26,12 +26,16 @@ body{
 /*backraun imagen principal*/
 }
 header{
-    position: absolute;
-    left: 0px;
-    right: 0px;    
+    
     background-image: url( img/fondo_home.JPG);
-    background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;    
+}
+a{
+    color: #794425;
+    font-size: 18px;  
 }
 
 
@@ -49,59 +53,64 @@ h1{
     font-family: titulos;
 }
 /*galeria panes*/
+h2{      
+    color: #794425;
+    font-size: 64px;   
+    text-align: center;
+    font-family: dulce;   
+    
+    } 
+    p{
+        color: #794425;
+        font-size: 24px;
+        text-align: center;
+        font-family: titulos;   
+    }  
+  
     .panes{
         position: relative;  
         width: 100%;
         height: 1462px;
-        top: 300px;
+        top: 100px;   
     
     }
+    .pasteleria{
+        
+        width: 100%;
+        height: 1578px;       
+        
+    }  
+    .eventos{
+        
+        width: 100%;
+        height: 1855px;
+
+    }  
+   
     .panes img{
-        position: absolute;
+
         width: 212px;
         height: 268px;
         border-radius: 39px;
+        box-shadow: 10px 5px 15px rgb(78, 45, 8);
+       
 
     }
-    .espinaca{
-        position: absolute;
-        left: 134px;
-        top: 267px;
-
-    }
-    .zanahoria{
-        position: absolute;
-        left: 599px;
-        top: 267px;
-
-    }
-    .brioche{
-        position: absolute;
-        left: 1075px;
-        top: 267px;
-    }
-    .artesano{
-        position: absolute;
-        left: 140px;
-        top: 861px;
-
-    }
-    .multigrano{
-        position: absolute;
-        left: 599px;
-        top: 861px;
-
-    }
-    .integral{
-        position: absolute;
-        left: 1075px;
-        top: 861px;
-
-    }
-    .ja{
-        color: #1b6914;
-        font-size: 24px;
-        text-align: center;
+    .pasteleria img{
+        
+        width: 587.75px;
+        height: 421px;    
+        border-radius: 73px;
+        box-shadow: 10px 5px 15px rgb(78, 45, 8);
+    } 
+    .eventos img{
+        width: 583.8px;
+        height: 421px;              
+        border-radius: 73px;
+        box-shadow: 10px 5px 15px rgb(78, 45, 8);
+        
+    }  
+        
 }
 #menu-links{
     position: absolute;
@@ -115,11 +124,11 @@ h1{
 }
     .pasteleria{       
         
-        position: relative;
-        Top:915px
-        Left:6010px
-        width: 1440px;
+        position: relative;        
+        width: 100%;
         height: 1578px;
+        Top: 300px;px
+       
     }
     .eventos{
         position: relative;
@@ -130,12 +139,16 @@ h1{
     }
 /*posiciona y da color al footer*/
 footer{
-    position: absolute;
+    background: #E8A155;
+    
+}
+    /*position: absolute;
     width: 1440px;
     height: 128px;
     left: calc(50% - 1440px/2);
     bottom: 0px;
     top: 1697px;
     margin-top: auto;
-    background: #E8A155;
-}
+    
+    
+*/
