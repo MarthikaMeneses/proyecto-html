@@ -61,32 +61,42 @@ h2{
     
     } 
     p{
-        color: #794425;
-        font-size: 24px;
+        color: #070707;
+        font-size: 18px;
         text-align: center;
         font-family: titulos;   
     }  
   
     .panes{
-        position: relative;  
+          
         width: 100%;
         height: 1462px;
-        top: 100px;   
+         
     
     }
+    .tx_panes{
+        position: relative;
+        width: 744px;
+        height: 92px;
+        left: calc(50% - 744px/2 + 7px);
+        top: 45px;
+    }
     .pasteleria{
-        
+        position: relative; 
         width: 100%;
         height: 1578px;       
-        
+        Top: 300px;px
     }  
     .eventos{
-        
+        position: relative;
         width: 100%;
         height: 1855px;
+        Top:2493px
+        Left:6010px
 
-    }  
-   
+    } 
+       
+      
     .panes img{
 
         width: 212px;
@@ -122,33 +132,24 @@ h2{
     background: rgba(254, 252, 252, 0.57);
     
 }
-    .pasteleria{       
-        
-        position: relative;        
-        width: 100%;
-        height: 1578px;
-        Top: 300px;px
-       
-    }
-    .eventos{
-        position: relative;
-        width: 1440px;
-        height: 1855px;
-        Top:2493px
-        Left:6010px
-    }
+ .linea{
+    position: absolute;
+    height: 100px;
+    left: 0px;
+    right: 0px;
+    top: 2000px;
+    
+ }   
 /*posiciona y da color al footer*/
 footer{
     background: #E8A155;
-    
-}
-    /*position: absolute;
+    position: absolute;
     width: 1440px;
-    height: 128px;
-    left: calc(50% - 1440px/2);
-    bottom: 0px;
-    top: 1697px;
-    margin-top: auto;
+    height: 158px;
+    left: 0px;
     
+    margin-top: auto;
+}
+    /*
     
 */
