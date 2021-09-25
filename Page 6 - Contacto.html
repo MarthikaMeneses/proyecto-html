@@ -1,55 +1,122 @@
 <!DOCTYPE html>
 <html>
-<!--HEAD-->
+	<head>
+	
+		<meta charset="utf-8" />
+		<title>Your first HTML form, styled</title>
+		<style>
+	
+			form {
+				/* Just to center the form on the page */
+				margin: 0 auto;
+				width: 400px;
+				/* To see the outline of the form */
+				padding: 1em;
+				border: 1px solid #ccc;
+				border-radius: 1em;
+			}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 6 - Contactanos</title>
-    <link rel="shortcut icon" href="img/Logo Gramo a Gramo Pequeno.png" type="image/x-icon">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-</head>
+			ul {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
 
-<!--BODY-->
+			form li + li {
+				margin-top: 1em;
+			}
 
-<body>
-    <header>
-        <h1>Contactanos</h1>
-        <button class="py-2 px-4 font-semibold rounded-lg shadow-md text-white bg-yellow-500 hover:bg-yellow-800">
-            contactame
-          </button>
-    </header>
+			label {
+				/* To make sure that all labels have the same size and are properly aligned */
+				display: inline-block;
+				width: 90px;
+				text-align: right;
+			}
 
-</body>
+			input,
+			textarea {
+				/* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
+				font: 1em sans-serif;
+				/* To give the same size to all text fields */
+				width: 300px;
+				box-sizing: border-box; /* To harmonize the look & feel of text field border */
+				border: 1px solid #999;
+			}
 
-<!--MAIN-->
+			input:focus,
+			textarea:focus {
+				/* To give a little highlight on active elements */
+				border-color: #000;
+			}
 
-<main>
+			textarea {
+				/* To properly align multiline text fields with their labels */
+				vertical-align: top;
+				/* To give enough room to type some text */
+				height: 5em;
+			}
 
-    <h3>Enlaces</h3>
-    <a href="https://www.instagram.com/gramoagramopanartesano/?hl=es-la" target="_blank">Instagram</a>
-    </br>
-    <a href="https://www.facebook.com/Gramoagramopanartesano/" target="_blank">Facebook</a>
-    </br>
-    <a href="https://wa.me/573195650570" target="_blank">WhatsApp</a>
-    </br>
-    <a href="mailto: gramoagramopanaderia@gmail.com">gramoagramopanaderia@gmail.com</a>
-    </br>
-    <a href="Page 1 - Home.html">Ir al Home</a>
-    </br>
+			.button {
+				/* To position the buttons to the same position of the text fields */
+				padding-left: 90px;
+				/* same size as the label elements */
+			}
 
+			button {
+				/* This extra margin represent roughly the same space as the space between the labels and their text fields */
+				margin-left: 0.5em;
+			}
+		</style>
+		
+	</head>
+	    	<body style="background-image: url('https://pasteleriamanacor.es/wp-content/uploads/2019/04/Depositphotos_174412406_l-2015.jpg');"></body>
 
-</main>
+	<body>
+		<form action="/my-handling-form-page" method="post">
+	<h2> </h2>
+	<img width= "187px" src="https://scontent.fclo1-4.fna.fbcdn.net/v/t1.6435-9/67243147_659697494531032_2501161113765281792_n.png?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFq0RQ54uWtSNlG7UM6vEN2jNuabmGzf1CM25puYbN_UCbaYRuIQikrUU7m8He19Kw&_nc_ohc=ISntVmx9ZfMAX_x8wXg&tn=VI6VnOduYPpUDLcu&_nc_ht=scontent.fclo1-4.fna&oh=4fc74c88013cae2c21cd4a949404b5af&oe=61739EAC" alt="logo"		
+	
 
-<!--ASIDE-->
-<aside>
+	
+	Contactanos
+            Mail: gramoagramopanaderia@gmail.com
+			Cel: 3195650570
+            Dejanos un mensaje
 
-</aside>
-
-<!--FOOTER-->
-<footer>
-
-</footer>
-
+            <ul>
+				<li>
+			
+					<label for="name">Nombre:</label>
+					<div>
+						<span>
+					<input type="text" id="name" name="user_name" />
+				</span>
+				</li>
+				<li>
+					<label for="mail">E-mail:</label>
+					<div>
+						<span>
+					<input type="email" id="mail" name="user_mail" />
+				</span>
+				</li>
+                <li>
+					<label for="phone">tel...cel...:</label>
+					<div>
+						<span>
+					<input type="phone" id="phone" name="phone" />
+				</span>
+				</li>
+				<li>
+					<label for="msg">Mensaje:</label>
+					<div>
+						<span>
+					<textarea id="msg" name="user_message"></textarea>
+					</span>
+				</li>
+				<li class="button">
+					<button type="submit">contactarme</button>
+				</li>
+			</ul>
+		</form>
+	</body>
 </html>
