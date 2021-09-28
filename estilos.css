@@ -60,6 +60,7 @@ h2{
     font-family: dulce;   
     
     } 
+    
     p{
         color: #070707;
         font-size: 18px;
@@ -120,7 +121,7 @@ h2{
         box-shadow: 10px 5px 15px rgb(78, 45, 8);
         
     }  
-        
+   
 }
 #menu-links{
     position: absolute;
@@ -139,7 +140,43 @@ h2{
     right: 0px;
     top: 2000px;
     
- }   
+ }
+ /*boton de pedidos
+  */     
+ #main-container{
+     padding-top: 3px;     
+     text-align: center ;
+     vertical-align: auto;
+
+    
+ } 
+ h3{      
+    color: #f7f1ee;
+    font-size: 20px;   
+    text-align: right;
+    font-family: titulos;
+    display: inline-block;
+
+    
+    }  
+  .btn{
+      border-radius: 14px;
+      display: inline-block;
+      padding: 0px 12px;
+      text-shadow: 0 1px 0 rgba(254, 252, 252, 0.3);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  }
+  .btn-yellow{
+      color: rgb(39, 17, 7);
+      background-color: rgb(241, 241, 214);
+  }
+  .btn-yellow:hover{
+      background-color:rgb(236, 227, 143) ;
+  }
+  .btn-yellow:active{
+    background-color:sienna ;
+}
+
 /*posiciona y da color al footer*/
 footer{
     background: #E8A155;
@@ -147,7 +184,7 @@ footer{
     width: 1440px;
     height: 158px;
     left: 0px;
-    
+    bottom: 0;    
     margin-top: auto;
 }
     /*

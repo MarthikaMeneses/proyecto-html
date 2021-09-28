@@ -1,32 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<div class="box h-8  bg-yellow-200">
-		<style>
-	h2{
-		color:white;
-		font-style:normal;
-font-weight:normal;
-font-size:14pt;
-font-family:Delius Swash Caps;
-text-align:center;
-	}
-	</style>
-	<h2>3195650570</h2>
-    </div>
 		<meta charset="utf-8" />
-		<title>Your first HTML form, styled</title>
+		<title>Page 6 - Contacto</title>
+		<link rel="shortcut icon" href= "img/Logo Gramo a Gramo Pequeno.png" type= "image/x-icon">
+		
+		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+		<!--<link rel="stylesheet" href="estilos.css">-->
+	</head>
+
 		<style>
 	
+	</style>    		
+		<style>	
 			form {
 				/* Just to center the form on the page */
 				margin: 0 auto;
-				width: 360px;
-				/* To see the outline of the form */
-				padding: 1em;
-				border: 1px solid #ccc;
-				border-radius: 1em;
-				color:white;
+				width: 300px;
+				color: azure;				
+							
 			}
 			ul {
 				list-style: none;
@@ -34,6 +26,7 @@ text-align:center;
 				margin: 0;
 			}
 			form li + li {
+				
 				margin-top: 1em;
 			}
 			label {
@@ -45,6 +38,7 @@ text-align:center;
 
 			input,
 			textarea {
+				
 				/* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
 				font: 1em sans-serif;
 				/* To give the same size to all text fields */
@@ -56,82 +50,116 @@ text-align:center;
 			}
 
 			input:focus,
-			textarea:focus {
-				/* To give a little highlight on active elements */
-				border-color: #000;
-				
+			textarea:focus {				
+				border-color: #000;				
 			}
-
-			textarea {
-				/* To properly align multiline text fields with their labels */
-				vertical-align: top;
-				/* To give enough room to type some text */
+			textarea {				
+				vertical-align: top;				
 				height: 5em;
 			}
-
-			.button {
-				/* To position the buttons to the same position of the text fields */
-				padding-left: 90px;
+			.button {				
+				padding-left: 90px;				
 				
-				/* same size as the label elements */
 			}
 
-			button {
-				/* This extra margin represent roughly the same space as the space between the labels and their text fields */
+			button {				
 				margin-left: 0.5em;
 				
 			}
-		</style>
-		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="estilos.css">
-	</head>
-	    	<style>
-	body {
-		
-		background-image: url('https://pasteleriamanacor.es/wp-content/uploads/2019/04/Depositphotos_174412406_l-2015.jpg');
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		
-		</style> 
-		<h2> </h2>
-		<img width= "100px" src="https://scontent.fclo1-4.fna.fbcdn.net/v/t1.6435-9/67243147_659697494531032_2501161113765281792_n.png?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFq0RQ54uWtSNlG7UM6vEN2jNuabmGzf1CM25puYbN_UCbaYRuIQikrUU7m8He19Kw&_nc_ohc=ISntVmx9ZfMAX_x8wXg&tn=VI6VnOduYPpUDLcu&_nc_ht=scontent.fclo1-4.fna&oh=4fc74c88013cae2c21cd4a949404b5af&oe=61739EAC" alt="logo"		-
-	<body>
-	
-		<form action="/my-handling-form-page" method="post">
-	
-	
-	<p>
-	<style>
-		h1{
-			color:white;
-			font-style:italic;
-  font-weight:normal;
-  font-size:20pt;
-    font-family:Dulcelin;
-	text-align:center;
+			h1{
+			color:white;	
+			font-size:40pt;
+			font-family:Dulcelin;
+			text-align:center;
 		}
 		h2{
 			color:white;
 			font-style:normal;
-  font-weight:normal;
-  font-size:14pt;
-    font-family:Delius Swash Caps;
-	text-align:center;
+			font-weight:normal;
+			font-size:14pt;
+			font-family:Delius Swash Caps;
+			text-align:center;
 		}
-		</style>
+				
+		
+		header{
+    
+			background-image: url( img/fondo_contactenos.JPG);
+			background-size: 100%;
+			background-position: center;
+			height: 100%;
+			background-repeat: no-repeat; 
+		}
+		footer{
+			background: #E8A155;
+			position: absolute;
+			width: 100%;
+			height: 158px;
+			left: 0px;						
+			margin-top: auto;
+		}
+		/*boton de pedidos
+  */     
+ #main-container{
+     padding-top: 3px;     
+     text-align: center ;
+     vertical-align: auto;
+
+    
+ } 
+ h3{      
+    color: #f7f1ee;
+    font-size: 20px;   
+    text-align: right;
+    font-family: titulos;
+    display: inline-block;
+
+    
+    }  
+  .btn{
+      border-radius: 14px;
+      display: inline-block;
+      padding: 0px 12px;
+      text-shadow: 0 1px 0 rgba(254, 252, 252, 0.3);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  }
+  .btn-yellow{
+      color: rgb(39, 17, 7);
+      background-color: rgb(241, 241, 214);
+  }
+  .btn-yellow:hover{
+      background-color:rgb(236, 227, 143) ;
+  }
+  .btn-yellow:active{
+    background-color:sienna ;
+}
+		</style> 
+		
+		
+				
+<body>
+
+	<header>
+		<div class="box h-8  bg-yellow-600">
+        <div id="main-container">
+            <a href="#"class="btn btn-yellow">Pedidos</a>
+            <h3 >3195650570</h3>            
+        </div>     
+        
+    
+			<img width= "250px" src="img/Logo Gramo a Gramo.png"alt="" class="transform hover:-translate-y-1 hover:scale-110"/> 	
+		</div>  			
+		
+	<body >	
 		<h1>Contactanos</h1>
 		<h2> Mail: gramoagramopanaderia@gmail.com </h2>
 		<h2>Cel: 3195650570</h2>
 		<h1>Dejanos un mensaje</h1>
-			<style>
-		h1{
-			color:white;
-		}
-		</style>
-			</p>
-            <ul>
-				<li>
-			
+	</body>	
+	<form action="/my-handling-form-page" method="post">	
+	
+			<ul>
+				<li>			
 					<label for="name">Nombre:</label>
 					
 					<div>
@@ -160,11 +188,13 @@ text-align:center;
 					<textarea id="msg" name="user_message"></textarea>
 					</span>
 				</li>
-				<li class="button">
-					<button type="submit">contactarme</button>
+				<li class="button ">
+					<button class="transition duration-500 ease-in-out bg-yellow-800 hover:bg-yellow-200 transform hover:-translate-y-1 hover:scale-110 ...">
+						Contactame
 				</li>
 			</ul>
 		</form>
+	</header>
 		<footer class="box h-36 " > 
 		<div class="box h-6  bg-yellow-200 "></div>
 			<div class="box h-3  bg-yellow-800 "></div>
@@ -179,6 +209,6 @@ text-align:center;
 	
 			</div>
 		</footer>		
-	</body>
+</body>
 	
 </html>
